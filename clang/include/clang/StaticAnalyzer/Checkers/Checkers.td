@@ -460,6 +460,11 @@ def BlockInCriticalSectionChecker : Checker<"BlockInCriticalSection">,
   HelpText<"Check for calls to blocking functions inside a critical section">,
   Documentation<HasAlphaDocumentation>;
 
+def ListDeclChecker: Checker<"ListDecl">,
+  HelpText<"List all function declare.">,
+  Documentation<HasAlphaDocumentation>;
+
+
 } // end "alpha.unix"
 
 //===----------------------------------------------------------------------===//

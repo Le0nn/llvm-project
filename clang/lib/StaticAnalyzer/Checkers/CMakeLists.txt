@@ -121,6 +121,8 @@ add_clang_library(clangStaticAnalyzerCheckers
   ValistChecker.cpp
   VirtualCallChecker.cpp
 
+  ListDeclChecker.cpp
+
   LINK_LIBS
   clangAST
   clangASTMatchers
